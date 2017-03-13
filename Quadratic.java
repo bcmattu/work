@@ -83,7 +83,7 @@ public class Quadratic {
 						double a = Double.parseDouble(sc.next());
 						double b = Double.parseDouble(sc.next());
 						double c = Double.parseDouble(sc.next());
-						printResult(Roche.qaSolver(a, b, c));
+						printResult(Quadratic.qaSolver(a, b, c));
 					}
 			} catch (FileNotFoundException e) {
 				System.out.println("Please Enter the correct  file name" + e.getMessage());
